@@ -6,12 +6,16 @@
  */
 int print_last_digit(int n)
 {
-int last;
-last = n % 10;
-if (last < 0)
+int a;
+if (n < 0)
 {
-last = last * -1;
+n = -n;
+a = n % 10;
 }
-_putchart(last + '0');
-return (last);
+if (a < 0)
+{
+a = -a;
+_putchar (a + '0');
+return (a);
+}
 }
