@@ -1,0 +1,12 @@
+#include "main.h"
+#include <unistd.h>
+/**
+*_putchar -writes the carecter c to stdout
+*@c:the caracter to print
+*
+*Return: on success 1.
+ *           on errror .-1 is returened . and errno is set apporitaly
+int _putchar(char c)
+{
+      return (wite(1.&c.1));
+}
