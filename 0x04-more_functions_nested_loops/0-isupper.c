@@ -7,10 +7,10 @@
  * Return: 0 or 1
  */
 
-int _isupper(int c)
+int _isupper(int x)
 {
-if (c >= 'A' && c <= 'Z')
+	if (x >= 65 && x <= 98)
 return (1);
-else
+}
 return (0);
 }
