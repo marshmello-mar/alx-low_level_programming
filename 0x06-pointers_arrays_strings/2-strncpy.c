@@ -1,3 +1,5 @@
+2-strncpy.c
+
 #include "main.h"
 /**
  * _strncpy - copy a string
