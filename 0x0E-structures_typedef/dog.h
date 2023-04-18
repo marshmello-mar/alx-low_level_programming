@@ -4,6 +4,7 @@
 
 	/**
 	 * struct dog - a dog's basic info
+	 *  struct dog - a dog's basic info
 	 * @name: First member
 	 * @age: Second member
 	 * @owner: Third member
@@ -33,4 +34,5 @@
 
 
 	#endif
+
 
